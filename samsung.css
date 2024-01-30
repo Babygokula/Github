@@ -1,0 +1,36 @@
+header
+{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+li
+{
+    display: inline;
+}
+img
+{
+    height: 50px;
+}
+ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    /* border: 2px solid; */
+    /* width: 500px; */
+}
+a
+{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+a:hover
+{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
